@@ -157,6 +157,8 @@ body {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office 1.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat; /* Уникнення повторення фонового зображення */
+  max-width: 1440px; /* Максимальна ширина секції */
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -192,9 +194,8 @@ body {
   line-height: 56px; /* Центрує текст вертикально */
   margin: 0 auto; /* Центрує кнопку горизонтально */
   cursor: pointer; /* Тип курсору при наведенні */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 
 /* Studio section */
