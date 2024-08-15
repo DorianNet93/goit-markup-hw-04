@@ -127,25 +127,22 @@ body {
   color: #2196F3;
 }
 
-.menu-item:hover::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: #404bbf;
-  border-radius: 2px;
-  transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.menu-item:first-child .menu-link {
+  position: relative; 
+  color: #404bbf;
 }
 
-.menu-item:hover::after {
-  left: 0;
-  width: 100%;
+/* Стилі для псевдоелемента ::after */
+.menu-item:first-child .menu-link::after {
+  content: ''; /* Встановлення вмісту псевдоелемента */
+  width: 100%; /* Встановлення ширини по батьківському елементу */
+  position: absolute; /* Встановлення позиціонування відносно батьківського елемента */
+  left: 0; /* Встановлення відстані між лівим краєм елемента і лівим краєм батьківського елемента */
+  bottom: -1px; /* Встановлення відстані між нижнім краєм елемента і нижнім краєм батьківського елемента */
+  height: 4px; /* Встановлення висоти елемента */
+  background-color: #404bbf; /* Встановлення кольору фону елемента */
+  border-radius: 2px; /* Встановлення радіусу закруглення кутів елемента */
 }
-
-
 
 .background--sec-one {
   position: relative;
