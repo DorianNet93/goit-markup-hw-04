@@ -157,8 +157,8 @@ body {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office 1.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; /* Уникнення повторення фонового зображення */
-  max-width: 1440px; /* Максимальна ширина секції */
+  background-repeat: no-repeat;
+  max-width: 1440px; 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -170,32 +170,32 @@ body {
   color: #FFFFFF; 
 }
 
-/* Заголовок */
+
 .hero__title {
-  max-width: 496px; /* Максимальна ширина заголовка */
-  margin-bottom: 48px; /* Відступ знизу заголовка */
-  font-size: 56px; /* Розмір шрифту заголовка */
+  max-width: 496px; 
+  margin-bottom: 48px; 
+  font-size: 56px; 
   font-weight: 700;
-  line-height: 60px; /* Висота рядка заголовка */
-  color: #FFFFFF; /* Колір тексту заголовка */
+  line-height: 60px; 
+  color: #FFFFFF; 
 }
 
-/* Кнопка */
 .hero__button {
-  display: block; /* Робить кнопку блочним елементом */
-  min-width: 169px; /* Мінімальна ширина кнопки */
-  height: 56px; /* Висота кнопки */
-  border: none; /* Вимикає стандартні обводки кнопки */
-  background-color: #4d5ae5; /* Колір фону кнопки */
-  border-radius: 4px; /* Заокруглення кутів кнопки */
-  color: #FFFFFF; /* Колір тексту кнопки */
-  font-size: 1rem; /* Розмір шрифту кнопки */
-  text-align: center; /* Центрує текст всередині кнопки */
-  line-height: 56px; /* Центрує текст вертикально */
-  margin: 0 auto; /* Центрує кнопку горизонтально */
-  cursor: pointer; /* Тип курсору при наведенні */
+  display: block; 
+  min-width: 169px; 
+  height: 56px; 
+  border: none; 
+  background-color: #4d5ae5; 
+  border-radius: 4px; 
+  color: #FFFFFF; 
+  font-size: 1rem; 
+  text-align: center; 
+  line-height: 56px; 
+  margin: 0 auto; 
+  cursor: pointer; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 
 /* Studio section */
