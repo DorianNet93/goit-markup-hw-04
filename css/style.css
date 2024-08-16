@@ -117,7 +117,7 @@ body {
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
-  color: #000000;
+  color:  #2E2F42;
   text-decoration: none;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -130,7 +130,7 @@ body {
 .menu-link:focus, 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196F3;
+  color: #404BBF;
 }
 
 /* Стили для черточки под ссылками в меню */
@@ -139,7 +139,7 @@ body {
   width: 100%; 
   position: absolute; 
   left: 0; 
-  bottom: -3px; 
+  bottom: -1px; 
   height: 4px; 
   background-color: #404bbf; /* Цвет черточки */
   border-radius: 2px; 
@@ -147,8 +147,8 @@ body {
   transform: scaleX(0); /* Черточка скрыта */
   transform-origin: bottom right;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-              transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное появление */
-  z-index: -1; /* Убедитесь, что псевдоэлемент находится под текстом */
+              transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  z-index: -1;/
 }
 
 .menu-item .menu-link:hover::after,
@@ -167,8 +167,10 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* max-width: 1440px;  */
+  max-width: 1440px; 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+
 }
 
 .hero {
