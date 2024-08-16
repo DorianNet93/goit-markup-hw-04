@@ -359,6 +359,7 @@ body {
 .portfolio__item {
   width: calc((100% - 48px) / 3);
   text-align: left;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio__item:hover {
