@@ -508,8 +508,8 @@ body {
   text-decoration: none; /* Додає стиль для видалення підкреслення */
 }
 
-.link-container a:hover,
-.link-container a:focus {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
