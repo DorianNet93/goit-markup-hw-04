@@ -307,7 +307,7 @@ body {
   margin-bottom: 8px;
 }
 
-.links-container-ul-three {
+.links-container-ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -486,7 +486,7 @@ body {
   color: var(--text-white); /* Використання CSS змінної */
 }
 
-.links-container-ul {
+.links-container-ul-footer {
   display: flex;
   gap: 16px; /* Відстань між елементами списку */
 }
