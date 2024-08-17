@@ -332,13 +332,14 @@ body {
   border-radius: 50%;
 }
 
-.link--sec3:hover {
-  background-color: #6c63ff;
+.link--sec3:hover,
+.link--sec3:focus {
+  background-color: #404bbf;
 }
 
-.svg--sec3 {
+/* .svg--sec3 {
   fill: #6c63ff;
-}
+} */
 
 
 
